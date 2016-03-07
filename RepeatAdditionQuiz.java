@@ -15,11 +15,8 @@ public class RepeatAdditionQuiz {
     
     int answer = input.nextInt();
     
-      
-      
+    //Add an object in arraylist named answerlist 
     anslist.add(new answerlist(answer));
-    
-      
     
     while (number1 + number2 != answer) {
       
@@ -42,25 +39,4 @@ public class RepeatAdditionQuiz {
 
     System.out.println("You got it!");
   }
-}
-
-class answerlist{
-    
-    private int answer;
-    
-    
-    answerlist(int answer){
-        this.answer = answer;
-        
-    }
-    
-    void setanswer(int answer){
-        this.answer = answer;
-    }
-    
-    int getanswer(){
-        return answer;
-    }
-    
-    
 }
